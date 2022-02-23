@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Modal } from "semantic-ui-react";
-import b2 from "./images/b2.jpg";
+import b2 from "./b2.jpg";
 import Map1 from "./Map1";
 class App extends React.Component {
   constructor(props) {
