@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Modal } from "semantic-ui-react";
-
+import b2 from "./images/b2.jpg";
 import Map1 from "./Map1";
 class App extends React.Component {
   constructor(props) {
@@ -62,7 +62,7 @@ class App extends React.Component {
       <>
         <div
           style={{
-            backgroundImage: "url(" + "./images/b2.jpg" + ")",
+            backgroundImage: "url(" + { b2 } + ")",
             backgroundSize: "cover",
             height: "1500px",
             width: "100%",
